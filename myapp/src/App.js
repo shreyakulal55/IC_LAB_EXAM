@@ -1,10 +1,11 @@
 import React from "react";
 
 import {BrowserRouter, Routes, Route} from "react-router-dom";
+import Menu from "./Components/Menu";
 import About from "./Components/About";
 import Home from "./Components/Home";
 import NavBar from "./Components/NavBar";
-import Menu from "./Components/Menu";
+
 
 
 function App() {
@@ -14,8 +15,9 @@ function App() {
      <NavBar />
      <Routes>
        <Route path="/" element={<Home />} />
-       <Route path="/about" element={<About />} />
        <Route path="/Menu" element={<Menu />} />
+       <Route path="/about" element={<About />} />
+       
       
 
      </Routes>
@@ -25,3 +27,4 @@ function App() {
 }
 
 export default App;
+
