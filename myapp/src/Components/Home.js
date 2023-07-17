@@ -81,7 +81,7 @@ const Home = () => {
                 <a
                   href="/Menu"
                   class="btn"
-                  style={{ backgroundColor: "secondary" }}
+                  style={{ backgroundColor: "#1234" }}
                 >
                   Location
                 </a>
@@ -98,7 +98,7 @@ const Home = () => {
               <a
                 href="/Menu"
                 class="btn"
-                style={{ backgroundColor: "secondary" }}
+                style={{ backgroundColor: "#1234" }}
               >
                 Location
               </a>
